@@ -3,64 +3,6 @@
 A new Flutter project.
 
 ## Getting Started
-├── lib
-├── packages
-│   ├── local_storage_todos_api
-│   ├── todos_api
-│   └── todos_repository
-└── test
-Project Structure
-├── lib
-├── lib
-|   |── Application
-
-|   |    |──Auth_bloc
-|   |    |──Auth_event
-|   |    |──Auth_bloc.freezed
-|   |    |──Auth_state
-|   |
-|   |── Presentation
-|       |──Core
-|       |   |──Theming
-|       |   |──widgets
-|       |
-|       |──home_page
-|       |──login_view
-|       |──sign_up
-|
-├── packages
-│   ├── Auth_use_case
-│   |   |── lib
-│   |   |   |──src
-│   |   |      |──repo
-│   |   |──usecases
-│   ├── domain
-│   |   |── lib
-│   |       |──src
-│   |       |   |──models
-|   |       |   |  |──app_error
-|   |       |   |  |──model
-|   |       |   |  |──user
-|   |       |   |  |──user.g
-|   |       |   |── authentication
-│   |       |──domain
-|   |
-│   |── infrastruture
-│   |   |── lib
-│   |       |──src
-│   |       |   |── helpers
-|   |       |   |  |──endpoints
-|   |       |   |  |──server_address
-|   |       |   |── repo
-│   |       |──infrastruture
-|   |── Utils
-│   |   |── lib
-│   |   |   |──src
-│   |   |      |──domain
-│   |   |      |──exceptions
-│   |   |      |──infrastruture
-│   |   |──utils
-└── test
 
 
 The project was split into multiple packages in order to maintain explicit dependencies for each package with clear boundaries that enforce the single responsibility principle.
