@@ -6,6 +6,7 @@ A new Flutter project.
 
 Project Structure
 ├── lib
+├── lib
 |   |── Application
 
 |   |    |──Auth_bloc
