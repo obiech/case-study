@@ -7,6 +7,7 @@ A new Flutter project.
 Project Structure
 ├── lib
 |   |── Application
+
 |   |    |──Auth_bloc
 |   |    |──Auth_event
 |   |    |──Auth_bloc.freezed
